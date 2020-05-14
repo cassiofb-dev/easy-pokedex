@@ -45,6 +45,9 @@ async function pokeInfo(pokemon) {
 	body.removeChild(ol);
 	const pokedata = await Pokedex.fetch(pokemon.url);
 	const div = document.createElement('div');
+	
+	// Conrado's mod
+	div.className += 'details';
 
 	const img = document.createElement('img');
 	img.src = pokedata.sprites.front_default;
