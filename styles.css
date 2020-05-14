@@ -16,7 +16,7 @@ form {
 
 form input {
 	width: 100%;
-	margin-top: 2vh;
+	margin-top: 10vh;
 	margin-bottom: 10px;
 }
 
@@ -26,7 +26,21 @@ form button {
 }
 
 ol {
-	column-count: 4;
+	margin-top: 10vh;
+	column-count: 3;
+}
+
+ol :hover {
+	background: #0000ff;
+}
+
+ol li {
+	background: #00aaff;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	list-style-position: inside;
 }
 
 div {
@@ -37,7 +51,10 @@ div {
 }
 
 img {
-	width: 20%;
+	width: 128px;
+	border: 5px;
+	border-style: groove;
+	border-color: black;
 }
 
 h1 {
@@ -47,7 +64,7 @@ h1 {
 
 @media (max-width: 1200px) {
 	ol {
-		column-count: 3;
+		column-count: 2;
 	}
 }
 
