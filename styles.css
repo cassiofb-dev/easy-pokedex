@@ -53,13 +53,13 @@ body {
 
 
 .pokedex{
-	margin: 2em 0;
+	margin-top: 20px;
 	border: 0;
 	animation: float 6s ease-in-out infinite;
 }
 
 form {
-	margin-top: 5vh;
+	margin-top: 2vh;
 
 	width: 80%;
 	display: flex;
@@ -126,8 +126,8 @@ ol li {
 
 div {
 	width: 80%;
-	height: 50vh;
-	margin-top: 10vh;
+	height: 100%;
+	margin-top: 5vh;
 	text-align: center;
 }
 
